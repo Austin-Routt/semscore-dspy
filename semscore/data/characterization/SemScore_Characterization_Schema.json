@@ -1,0 +1,63 @@
+{
+    "type": "object",
+    "properties": {
+      "category": {
+        "type": "string",
+        "enum": [
+          "Identical",
+          "Paraphrase",
+          "Similar Content",
+          "Related Topic", 
+          "Different Domain",
+          "Unrelated",
+          "Contradiction"
+        ],
+        "description": "The semantic relationship between the two texts. Categories:\n- **Identical**: Exact match in meaning and wording. Example: 'The sky is blue.' vs. 'The sky is blue.'\n- **Paraphrase**: Same meaning with different phrasing. Example: 'The quick brown fox jumps over the lazy dog.' vs. 'A swift brown fox leaps above a lazy canine.'\n- **Similar Content**: Related ideas sharing significant overlap. Example: 'Vaccines prevent disease spread.' vs. 'Immunizations stop outbreaks.'\n- **Related Topic**: Loose topical connection. Example: 'Photosynthesis converts sunlight into energy.' vs. 'Plants use chlorophyll in photosynthesis.'\n- **Different Domain**: Minimal context overlap. Example: 'The sky is blue.' vs. 'Cats are mammals.'\n- **Unrelated**: No semantic relationship. Example: 'Python is a programming language.' vs. 'Apples are delicious.'\n- **Contradiction**: Direct logical or factual opposition, though may share topic/vocabulary. Example: 'The earth is flat.' vs. 'The earth is round.'"
+  },
+      "domain": {
+        "type": "string",
+        "enum": [
+          "Technical",
+          "Creative",
+          "Conversational",
+          "Academic",
+          "News",
+          "Code"
+        ]
+      },
+      "subdomain": {
+        "type": "string",
+        "description": "Optional specific area within the main domain (e.g., 'Blood Research', 'Machine Learning', 'Medieval History')"
+      },
+      "text1": {
+        "type": "string",
+        "minLength": 1,
+        "description": "The first input text to be compared"
+      },
+      "text2": {
+        "type": "string",
+        "minLength": 1,
+        "description": "The second input text to be compared"
+      },
+      "source": {
+        "type": "string",
+        "description": "The origin of the data. Example: 'Manually Curated,' 'Public Dataset,' or 'STS Benchmark'"
+      },
+      "expected_range": {
+        "type": "array",
+        "items": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "minItems": 2,
+        "maxItems": 2,
+        "description": "Expected SemScore similarity range based on category:\n- Identical: [0.95, 1.0] — Exact match\n- Paraphrase: [0.8, 0.95] — Same meaning, different words\n- Similar Content: [0.6, 0.8] — Significant overlap\n- Related Topic: [0.4, 0.6] — Topical connection\n- Different Domain: [0.2, 0.4] — Minimal overlap\n- Unrelated: [0.0, 0.2] — No relationship\n- Contradiction: [0.4, 0.8] — Note: Contradictions often score like Similar Content or Related Topic due to shared vocabulary/topic"
+      },
+      "notes": {
+        "type": "string",
+        "description": "Optional notes about the pair, particularly useful for explaining contradictions or edge cases"
+      }
+    },
+    "required": ["category", "domain", "text1", "text2", "expected_range"]
+  }

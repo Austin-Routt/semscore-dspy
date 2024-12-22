@@ -1,0 +1,71 @@
+{
+  "category_analysis": {
+    "Identical": {
+      "mean_score": 1.0,
+      "std_score": 0.0,
+      "median_score": 1.0,
+      "range_compliance": {
+        "compliant_count": 10,
+        "total_count": 10,
+        "compliance_rate": 1.0
+      },
+      "sample_count": 10
+    },
+    "Paraphrase": {
+      "mean_score": 0.8919212222099304,
+      "std_score": 0.0,
+      "median_score": 0.8919212222099304,
+      "range_compliance": {
+        "compliant_count": 10,
+        "total_count": 10,
+        "compliance_rate": 1.0
+      },
+      "sample_count": 10
+    },
+    "Unrelated": {
+      "mean_score": 0.11260402947664261,
+      "std_score": 0.0,
+      "median_score": 0.11260402947664261,
+      "range_compliance": {
+        "compliant_count": 10,
+        "total_count": 10,
+        "compliance_rate": 1.0
+      },
+      "sample_count": 10
+    }
+  },
+  "domain_analysis": {
+    "Technical": {
+      "mean_score": 0.6681750838955244,
+      "std_score": 0.3953181443961558,
+      "score_by_category": {
+        "Identical": {
+          "mean": 1.0,
+          "std": 0.0,
+          "count": 10
+        },
+        "Paraphrase": {
+          "mean": 0.8919212222099304,
+          "std": 0.0,
+          "count": 10
+        },
+        "Unrelated": {
+          "mean": 0.11260402947664261,
+          "std": 0.0,
+          "count": 10
+        }
+      },
+      "sample_count": 30
+    }
+  },
+  "range_compliance": {
+    "compliance_rate": 1.0,
+    "total_samples": 30,
+    "compliant_samples": 30
+  },
+  "overall_stats": {
+    "mean_score": 0.6681750838955244,
+    "std_score": 0.3953181443961558,
+    "correlation_with_expected": 0.9999736669328724
+  }
+}
