@@ -1,0 +1,151 @@
+    {
+        
+        "descriptive_statistics": {
+        "description": "Per-category statistical analysis with bootstrap confidence intervals",
+        "type": "object",
+        "patternProperties": {
+            ".*": {  
+                "type": "object",
+                "properties": {
+                    "n_samples": {
+                        "type": "integer",
+                        "description": "Number of samples in category",
+                        "minimum": 1
+                    },
+                    "mean": {
+                        "type": "object",
+                        "description": "Mean semantic similarity score",
+                        "properties": {
+                            "value": {
+                                "type": "number",
+                                "description": "Sample mean"
+                            },
+                            "ci_95": {
+                                "type": "array",
+                                "description": "Bootstrap 95% confidence interval for mean",
+                                "items": {
+                                    "type": "number"
+                                },
+                                "minItems": 2,
+                                "maxItems": 2
+                            }
+                        }
+                    },
+                    "median": {
+                        "type": "object",
+                        "description": "Median semantic similarity score",
+                        "properties": {
+                            "value": {
+                                "type": "number",
+                                "description": "Sample median"
+                            },
+                            "ci_95": {
+                                "type": "array",
+                                "description": "Bootstrap 95% confidence interval for median",
+                                "items": {
+                                    "type": "number"
+                                },
+                                "minItems": 2,
+                                "maxItems": 2
+                            }
+                        }
+                    },
+                    "std": {
+                        "type": "object",
+                        "description": "Standard deviation of scores",
+                        "properties": {
+                            "value": {
+                                "type": "number",
+                                "description": "Sample standard deviation"
+                            },
+                            "ci_95": {
+                                "type": "array",
+                                "description": "Bootstrap 95% confidence interval for std dev",
+                                "items": {
+                                    "type": "number"
+                                },
+                                "minItems": 2,
+                                "maxItems": 2
+                            }
+                        }
+                    },
+                    "iqr": {
+                        "type": "object",
+                        "description": "Interquartile range of scores",
+                        "properties": {
+                            "value": {
+                                "type": "number",
+                                "description": "Sample IQR"
+                            },
+                            "ci_95": {
+                                "type": "array",
+                                "description": "Bootstrap 95% confidence interval for IQR",
+                                "items": {
+                                    "type": "number"
+                                },
+                                "minItems": 2,
+                                "maxItems": 2
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "pairwise_comparisons": {
+        "description": "Statistical comparisons between all category pairs",
+        "type": "object",
+        "patternProperties": {
+            ".*_vs_.*": {  
+                "type": "object",
+                "properties": {
+                    "cles": {
+                        "type": "number",
+                        "description": "Common Language Effect Size: probability that a random score from first category exceeds a random score from second category",
+                        "minimum": 0,
+                        "maximum": 1
+                    },
+                    "cohens_d": {
+                        "type": "number",
+                        "description": "Cohen's d effect size: standardized mean difference between categories"
+                    },
+                    "mean_difference": {
+                        "type": "object",
+                        "description": "Difference between category means (first minus second)",
+                        "properties": {
+                            "value": {
+                                "type": "number",
+                                "description": "Raw difference in means"
+                            },
+                            "ci_95": {
+                                "type": "array",
+                                "description": "Bootstrap 95% confidence interval for mean difference",
+                                "items": {
+                                    "type": "number"
+                                },
+                                "minItems": 2,
+                                "maxItems": 2
+                            }
+                        }
+                    },
+                    "kw_test": {
+                        "type": "object",
+                        "description": "Kruskal-Wallis test results comparing score distributions",
+                        "properties": {
+                            "statistic": {
+                                "type": "number",
+                                "description": "Kruskal-Wallis H-statistic"
+                            },
+                            "p_value": {
+                                "type": "number",
+                                "description": "P-value for Kruskal-Wallis test",
+                                "minimum": 0,
+                                "maximum": 1
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

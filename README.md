@@ -1,7 +1,150 @@
 # SemScore-DSPy
 
-<img src="logo/SemScore-DSPy-2.svg" alt="SemScore-DSPy Logo" style="width:400px; height:auto;">
+<img src="logo/SemScore-DSPy-2.svg" alt="SemScore-DSPy Logo" style="width:600px; height:auto;">
 
+## Overview
+
+
+**SemScore-DSPy** is an implementation of a [standard metric for semantic similarity](https://arxiv.org/pdf/2401.17072) designed to evaluate language model outputs. This tool offers a validated and robust framework for assessing the semantic alignment between generated and reference texts across a wide range of applications. Additionally, it aims to enhance algorithmic accuracy, advancing automated methods for precise semantic evaluation.
+
+
+
+
+## Installation
+
+
+## Using SemScore-DSPy
+
+### DSPy Examples
+
+First, connect to your LLM. I'm using LM Studio for an OpenAI server.
+
+```python
+import dspy
+# Use dspy.LM instead of dspy.OpenAI
+turbo = dspy.LM('openai/turbo', api_key='123', api_base='http://localhost:1234/v1/', temperature=0.8, cache=False)
+dspy.settings.configure(lm=turbo)
+```
+
+Next, define the DSPy signature & module:
+
+```python
+class GenerateResponse(dspy.Signature):
+    """Generate a high-quality response to a prompt."""
+    prompt = dspy.InputField()
+    response = dspy.OutputField(desc="Generated response")
+
+class ResponseGenerator(dspy.Module):
+    def __init__(self):
+        super().__init__()
+        self.generator = dspy.Predict(GenerateResponse)
+    
+    def forward(self, prompt):
+        pred = self.generator(prompt=prompt)
+        return dspy.Prediction(response=pred.response)
+```
+
+Don't forget to define the metric:
+
+```python
+from semscore.metric.core import SemScoreMetric
+metric = SemScoreMetric()
+
+def response_quality_metric(example: dspy.Example, prediction: dspy.Prediction, trace=None) -> float:
+    """DSPy metric for evaluating response quality using SemScore."""
+
+    pred_response = prediction.response 
+    gold_response = example.reference
+
+        
+    score = metric( pred_response, gold_response)
+        
+        
+    if trace is not None:
+        trace['semscore'] = score
+            
+    return float(score)
+        
+
+```
+
+Prepare the data:
+
+```python
+def prepare_data(data, split_ratio=0.8):
+    examples = []
+    for model, responses in data.items():
+        for r in responses:
+            example = dspy.Example(
+                prompt=r['prompt'],
+                reference=r['answer_ref'],  # Use answer_ref as reference
+            ).with_inputs('prompt')  # Specify input field
+            examples.append(example)
+    
+    split_idx = int(len(examples) * split_ratio)
+    return examples[:split_idx], examples[split_idx:]
+```
+
+
+Run optimization:
+
+```python
+import dspy
+from dspy.teleprompt import BootstrapFewShotWithRandomSearch
+import json
+
+# Load data
+with open("semscore/data/reference/semscores_OA-100.json", "r") as f:
+    reference_data = json.load(f)
+
+# Prepare data
+trainset, devset = prepare_data(reference_data)
+
+# Create program
+program = ResponseGenerator()
+
+# Create teleprompter with metric
+teleprompter = BootstrapFewShotWithRandomSearch(metric=response_quality_metric, max_errors=100000,num_candidate_programs=5, num_threads=1)
+
+# Compile with proper LM configuration
+optimized_program = teleprompter.compile(program, trainset=trainset)
+
+```
+
+Evaluate
+
+```python
+# Create evaluator
+evaluate = dspy.Evaluate(
+    devset=devset,
+    metric=response_quality_metric,
+    num_threads=1,
+    max_errors=10000,
+    display_progress=True,
+    display_table=True
+)
+
+# Evaluate
+avg_score0, full_results0, all_scores0 = evaluate(
+    program,
+    num_threads=1,
+    return_all_scores=True,
+    return_outputs=True
+)
+
+# Evaluate
+avg_score1, full_results1, all_scores1 = evaluate(
+    optimized_program,
+    max_errors=10000,
+    num_threads=24,
+    return_all_scores=True,
+    return_outputs=True
+)
+```
+
+
+
+### Pytorch Examples
 
 
 ## Validation
@@ -63,7 +206,7 @@ To address this, the SemScore-DSPy tool was developed for applications in RBC-Li
 ### Key Visualizations
 
 
-The code produces the following figures:
+The code in `example.ipynb` produces the following figures:
 
 <img src="semscore_characterization_results\figures\characterization_summary.png" alt="SemScore-DSPy Logo" style="width:1440px; height:auto;">
 
@@ -74,14 +217,14 @@ From **top left to bottom left**, going **clockwise**:
 
 2. The second figure (**☝️ top 👉 right**) is a common language effect size (CLES) matrix that compares semantic categories in terms of size superiority. Each cell represents the probability of a randomly drawn score from the row category being greater than a randomly drawn score from the column category. The most notable observation here is that a random score from the "Paraphrase" category has only a slight (56.2%) chance of being greater than a random score from the "Contradiction" category.  
 
-3. The bottom two figures (**👇 bottom 👈 left** and **👇 bottom 👉 right**) show the bootstrap (minimum of 10,000 replicates) of the mean for each semantic category and their 95% confidence intervals. The means appear distinct overall, but there is almost overlap between the confidence intervals for the "Paraphrase" and "Contradiction" categories in the rightmost figure, reflecting the negligible differentiation between them seen in the CLES matrix.  
+3. The bottom two figures (**👇 bottom 👈 left** and **👇 bottom 👉 right**) show the bootstrap (minimum of 10,000 replicates) of the mean for each semantic category and their 95% confidence intervals. The means appear distinct overall, but there is almost overlap between the confidence intervals for the "Paraphrase" and "Contradiction" categories in the rightmost figure.
 
 ### Key Insights  
 
 Based on these figures, the distributions and means of the SemScores across semantic categories generally appear distinct. This suggests that these categories could serve as general rules of thumb for SemScore analysis in the domain of RBC-liposome research. However, there are still some issues:  
 
 - The **effect size between "Paraphrase" and "Contradiction"** is negligible. A random "Paraphrase" SemScore has only a slightly better probability of exceeding a "Contradiction" SemScore.  
-- **"Contradiction" SemScores outperform most other categories** (≥77.8% probability) in random pairwise comparisons, except for the "Identical" abd "Paraphrase" categories.  
+- **"Contradiction" SemScores outperform most other categories** (≥77.8% probability) in random pairwise comparisons, except for the "Identical" and "Paraphrase" categories.  
 
 
 Therefore, a high SemScore could indicate either an accurate paraphrase of the ground truth or its complete opposite, presenting challenges in interpretation.   The overlap between "Paraphrase" and "Contradiction" categories highlights potential ambiguity in SemScore categorization, which may limit its utility as a standalone metric.  
