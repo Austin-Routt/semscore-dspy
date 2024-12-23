@@ -13,6 +13,38 @@
 ## Installation
 
 
+This project is currently under active development and is not yet available as a pip package. To use the current implementation:
+
+1. Clone the repository:
+```bash
+git clone https://github.com/[your-username]/semscore.git
+cd semscore
+```
+
+2. Install dependencies:
+```bash
+pip install -r requirements.txt
+```
+
+
+
+## Development Status
+
+⚠️ **Note**: This is a work in progress. Some features may be incomplete or subject to change. Current limitations include:
+
+- Limited testing across different environments
+- Some features are still in development
+- Documentation is being actively updated
+- Performance optimizations are ongoing
+
+## Getting Started
+
+While full documentation is in development, you can explore the current functionality through the example notebook, `examples.ipynb` directory.
+
+For questions, issues, or contributions, please open an issue on GitHub.
+
+
+
 ## Using SemScore-DSPy
 
 ### DSPy Examples
