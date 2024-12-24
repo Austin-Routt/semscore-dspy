@@ -17,8 +17,8 @@ This project is currently under active development and is not yet available as a
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/Austin-Routt/semscore-dspy
-cd semscore
+git clone https://github.com/Austin-Routt/semscore-dspy.git
+cd semscore-dspy
 ```
 
 2. Install dependencies:
