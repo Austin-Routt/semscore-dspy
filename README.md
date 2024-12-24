@@ -17,7 +17,7 @@ This project is currently under active development and is not yet available as a
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/[your-username]/semscore.git
+git clone https://github.com/Austin-Routt/semscore-dspy
 cd semscore
 ```
 
@@ -39,7 +39,7 @@ pip install -r requirements.txt
 
 ## Getting Started
 
-While full documentation is in development, you can explore the current functionality through the example notebook, `examples.ipynb` directory.
+While full documentation is in development, you can explore the current functionality through the example notebook, `example.ipynb`.
 
 For questions, issues, or contributions, please open an issue on GitHub.
 
@@ -176,7 +176,6 @@ avg_score1, full_results1, all_scores1 = evaluate(
 
 
 
-### Pytorch Examples
 
 
 ## Validation
