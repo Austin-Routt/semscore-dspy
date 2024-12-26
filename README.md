@@ -76,12 +76,13 @@ class ResponseGenerator(dspy.Module):
         return dspy.Prediction(response=pred.response)
 ```
 
-Don't forget to define the metric:
+Don't forget to define the metrics. Note that we can evaluate with SemScore, but we cannot optimize with a float. Instead, we'll need a threshold to get a boolean value:
 
 ```python
 from semscore.metric.core import SemScoreMetric
 metric = SemScoreMetric()
 
+# The Creates an Actual SemScore value for evaluation
 def response_quality_metric(example: dspy.Example, prediction: dspy.Prediction, trace=None) -> float:
     """DSPy metric for evaluating response quality using SemScore."""
 
@@ -96,8 +97,19 @@ def response_quality_metric(example: dspy.Example, prediction: dspy.Prediction, 
         trace['semscore'] = score
             
     return float(score)
-        
 
+
+
+#This allows us to optimize for high (~.75) Semscore values
+def threshold_semscore(example, pred, trace=None):
+    score = metric(example.reference, pred.response)
+    result = False
+
+    if score > .75:
+        result = True
+
+    
+    return result
 ```
 
 Prepare the data:
@@ -118,11 +130,10 @@ def prepare_data(data, split_ratio=0.8):
 ```
 
 
-Run optimization:
+Evaluate:
 
 ```python
 import dspy
-from dspy.teleprompt import BootstrapFewShotWithRandomSearch
 import json
 
 # Load data
@@ -135,17 +146,6 @@ trainset, devset = prepare_data(reference_data)
 # Create program
 program = ResponseGenerator()
 
-# Create teleprompter with metric
-teleprompter = BootstrapFewShotWithRandomSearch(metric=response_quality_metric, max_errors=100000,num_candidate_programs=5, num_threads=1)
-
-# Compile with proper LM configuration
-optimized_program = teleprompter.compile(program, trainset=trainset)
-
-```
-
-Evaluate
-
-```python
 # Create evaluator
 evaluate = dspy.Evaluate(
     devset=devset,
@@ -164,17 +164,33 @@ avg_score0, full_results0, all_scores0 = evaluate(
     return_outputs=True
 )
 
+```
+
+Run optimization & Evaluate the new model:
+
+```python
+from dspy.teleprompt import BootstrapFewShot, BootstrapFewShotWithRandomSearch
+teleprompter = BootstrapFewShotWithRandomSearch(
+    metric = threshold_semscore, 
+    max_errors=100000
+)
+# Compile with proper LM configuration
+optimized_program = teleprompter.compile(program, trainset=trainset)
+
+```
+
+Evaluate the optimized program:
+
+```python
 # Evaluate
 avg_score1, full_results1, all_scores1 = evaluate(
     optimized_program,
-    max_errors=10000,
     num_threads=24,
     return_all_scores=True,
     return_outputs=True
 )
+
 ```
-
-
 
 
 
