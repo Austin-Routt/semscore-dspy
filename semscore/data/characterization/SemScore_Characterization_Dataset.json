@@ -6797,5 +6797,1862 @@
             0.8
         ],
         "notes": "Contradictory statistical results while sharing analytical approach"
-    }
+    },
+    {
+        "category": "Identical",
+        "domain": "Academic",
+        "subdomain": "Blood Research",
+        "text1": "Plasma is a yellow liquid that includes 55% of the blood and consists of water (91 to 92%) and solid (8 to 9%)",
+        "text2": "Plasma is a yellow liquid that includes 55% of the blood and consists of water (91 to 92%) and solid (8 to 9%)",
+        "source": "Zadeh Mehrizi (2022), p.2276",
+        "expected_range": [
+            0.95,
+            1.0
+        ],
+        "notes": "Direct quote from plasma composition section"
+    },
+    {
+        "category": "Identical",
+        "domain": "Academic",
+        "subdomain": "Blood Research",
+        "text1": "Liposome nanoparticles are effective preservatives for RBCs during hypothermal conditions",
+        "text2": "Liposome nanoparticles are effective preservatives for RBCs during hypothermal conditions",
+        "source": "Zadeh Mehrizi (2022), p.2269",
+        "expected_range": [
+            0.95,
+            1.0
+        ],
+        "notes": "Key finding about liposome preservation"
+    },
+    {
+        "category": "Identical",
+        "domain": "Academic",
+        "subdomain": "Blood Research",
+        "text1": "Platelets are tiny blood cells made up of bone marrow cells called megakaryocytes whose primary function is to prevent bleeding",
+        "text2": "Platelets are tiny blood cells made up of bone marrow cells called megakaryocytes whose primary function is to prevent bleeding",
+        "source": "Zadeh Mehrizi (2022), p.2285",
+        "expected_range": [
+            0.95,
+            1.0
+        ],
+        "notes": "Definition of platelets from introduction"
+    },
+    {
+        "category": "Identical",
+        "domain": "Academic",
+        "subdomain": "Blood Research",
+        "text1": "Red blood cells are small, large cells in the blood specifically designed to carry oxygen from the lungs to the cells",
+        "text2": "Red blood cells are small, large cells in the blood specifically designed to carry oxygen from the lungs to the cells",
+        "source": "Zadeh Mehrizi (2022), p.2264",
+        "expected_range": [
+            0.95,
+            1.0
+        ],
+        "notes": "Definition of red blood cells"
+    },
+    {
+        "category": "Identical",
+        "domain": "Academic",
+        "subdomain": "Blood Research",
+        "text1": "Storage lesions resulting from the function and viability of red cells during laboratory storage are important challenges in the proper storage and maintenance of red blood cells",
+        "text2": "Storage lesions resulting from the function and viability of red cells during laboratory storage are important challenges in the proper storage and maintenance of red blood cells",
+        "source": "Zadeh Mehrizi (2022), p.2267",
+        "expected_range": [
+            0.95,
+            1.0
+        ],
+        "notes": "Description of storage lesion challenges"
+    },
+    {
+        "category": "Identical",
+        "domain": "Academic",
+        "subdomain": "Blood Research",
+        "text1": "Immunoglobulins, also known as antibodies, are glycoprotein molecules produced by plasma cells (white blood cells)",
+        "text2": "Immunoglobulins, also known as antibodies, are glycoprotein molecules produced by plasma cells (white blood cells)",
+        "source": "Zadeh Mehrizi (2022), p.2277",
+        "expected_range": [
+            0.95,
+            1.0
+        ],
+        "notes": "Definition of immunoglobulins"
+    },
+    {
+        "category": "Identical",
+        "domain": "Academic",
+        "subdomain": "Blood Research",
+        "text1": "The F8 gene encodes factor VIII in humans, one of the essential proteins for blood clotting",
+        "text2": "The F8 gene encodes factor VIII in humans, one of the essential proteins for blood clotting",
+        "source": "Zadeh Mehrizi (2022), p.2279",
+        "expected_range": [
+            0.95,
+            1.0
+        ],
+        "notes": "Description of Factor VIII genetics"
+    },
+    {
+        "category": "Identical",
+        "domain": "Academic",
+        "subdomain": "Blood Research",
+        "text1": "Polymeric nanoparticles play a significant role in increasing the stability and improving immunoglobulin (plasma) products",
+        "text2": "Polymeric nanoparticles play a significant role in increasing the stability and improving immunoglobulin (plasma) products",
+        "source": "Zadeh Mehrizi (2022), p.2277",
+        "expected_range": [
+            0.95,
+            1.0
+        ],
+        "notes": "Role of polymeric nanoparticles"
+    },
+    {
+        "category": "Identical",
+        "domain": "Academic",
+        "subdomain": "Blood Research",
+        "text1": "Hemophilia A, a disorder of blood clotting, is caused by a disorder in this gene",
+        "text2": "Hemophilia A, a disorder of blood clotting, is caused by a disorder in this gene",
+        "source": "Zadeh Mehrizi (2022), p.2279",
+        "expected_range": [
+            0.95,
+            1.0
+        ],
+        "notes": "Description of Hemophilia A"
+    },
+    {
+        "category": "Identical",
+        "domain": "Academic",
+        "subdomain": "Blood Research",
+        "text1": "Fresh-frozen plasma (FFP), cryoprecipitate-poor plasma (CPP), plasma frozen within 24 h of phlebotomy (FP24), and thawed plasma are the four main plasma-derived products",
+        "text2": "Fresh-frozen plasma (FFP), cryoprecipitate-poor plasma (CPP), plasma frozen within 24 h of phlebotomy (FP24), and thawed plasma are the four main plasma-derived products",
+        "source": "Zadeh Mehrizi (2022), p.2276",
+        "expected_range": [
+            0.95,
+            1.0
+        ],
+        "notes": "Types of plasma products"
+    },
+    {
+        "category": "Identical",
+        "domain": "Academic",
+        "subdomain": "Blood Research",
+        "text1": "Rupture (lysis) of red blood cells (erythrocytes) is a destructive and challenging phenomenon known as hemolysis",
+        "text2": "Rupture (lysis) of red blood cells (erythrocytes) is a destructive and challenging phenomenon known as hemolysis",
+        "source": "Zadeh Mehrizi (2022), p.2268",
+        "expected_range": [
+            0.95,
+            1.0
+        ],
+        "notes": "Definition of hemolysis"
+    },
+    {
+        "category": "Identical",
+        "domain": "Academic",
+        "subdomain": "Blood Research",
+        "text1": "Blood clotting agents are released from damaged cells and platelets into the environment when the skin is injured",
+        "text2": "Blood clotting agents are released from damaged cells and platelets into the environment when the skin is injured",
+        "source": "Zadeh Mehrizi (2022), p.2285",
+        "expected_range": [
+            0.95,
+            1.0
+        ],
+        "notes": "Description of clotting process"
+    },
+    {
+        "category": "Identical",
+        "domain": "Academic",
+        "subdomain": "Blood Research",
+        "text1": "Abundant circulating proteins in plasma are called albumin, which is synthesized by liver cells and rapidly excreted through the bloodstream",
+        "text2": "Abundant circulating proteins in plasma are called albumin, which is synthesized by liver cells and rapidly excreted through the bloodstream",
+        "source": "Zadeh Mehrizi (2022), p.2276",
+        "expected_range": [
+            0.95,
+            1.0
+        ],
+        "notes": "Description of albumin"
+    },
+    {
+        "category": "Identical",
+        "domain": "Academic",
+        "subdomain": "Blood Research",
+        "text1": "Restenosis is one of the challenges for patients treated with vascular stents due to unregulated (intrinsic) factor XII and tissue damage",
+        "text2": "Restenosis is one of the challenges for patients treated with vascular stents due to unregulated (intrinsic) factor XII and tissue damage",
+        "source": "Zadeh Mehrizi (2022), p.2286",
+        "expected_range": [
+            0.95,
+            1.0
+        ],
+        "notes": "Description of restenosis"
+    },
+    {
+        "category": "Identical",
+        "domain": "Academic",
+        "subdomain": "Blood Research",
+        "text1": "PAMAM dendrimers have been extensively studied due to their unique properties to evaluate the components of the blood coagulation system",
+        "text2": "PAMAM dendrimers have been extensively studied due to their unique properties to evaluate the components of the blood coagulation system",
+        "source": "Zadeh Mehrizi (2022), p.2286",
+        "expected_range": [
+            0.95,
+            1.0
+        ],
+        "notes": "PAMAM dendrimers research"
+    },
+    {
+        "category": "Identical",
+        "domain": "Academic",
+        "subdomain": "Blood Research",
+        "text1": "One of the main challenges in treating hemophilia A (HA) is the production of inhibitory antibodies against factor VIII (FVIII)",
+        "text2": "One of the main challenges in treating hemophilia A (HA) is the production of inhibitory antibodies against factor VIII (FVIII)",
+        "source": "Zadeh Mehrizi (2022), p.2279",
+        "expected_range": [
+            0.95,
+            1.0
+        ],
+        "notes": "Hemophilia A treatment challenge"
+    },
+    {
+        "category": "Identical",
+        "domain": "Academic",
+        "subdomain": "Blood Research",
+        "text1": "Crown protein production due to interactions between nanoparticles and platelets that occur under the influence of plasma proteins adsorbed on the surface of nanoparticles",
+        "text2": "Crown protein production due to interactions between nanoparticles and platelets that occur under the influence of plasma proteins adsorbed on the surface of nanoparticles",
+        "source": "Zadeh Mehrizi (2022), p.2266",
+        "expected_range": [
+            0.95,
+            1.0
+        ],
+        "notes": "Crown protein formation"
+    },
+    {
+        "category": "Identical",
+        "domain": "Academic",
+        "subdomain": "Blood Research",
+        "text1": "Liposomes, engineered nanoparticles, or injectable platelet membranes are suggested alternatives to allogeneic platelet injections",
+        "text2": "Liposomes, engineered nanoparticles, or injectable platelet membranes are suggested alternatives to allogeneic platelet injections",
+        "source": "Zadeh Mehrizi (2022), p.2286",
+        "expected_range": [
+            0.95,
+            1.0
+        ],
+        "notes": "Platelet injection alternatives"
+    },
+    {
+        "category": "Identical",
+        "domain": "Academic",
+        "subdomain": "Blood Research",
+        "text1": "Red blood cells are a biocompatible and non-immunogenic drug because they prevent the rapid removal of drugs from the plasma",
+        "text2": "Red blood cells are a biocompatible and non-immunogenic drug because they prevent the rapid removal of drugs from the plasma",
+        "source": "Zadeh Mehrizi (2022), p.2279",
+        "expected_range": [
+            0.95,
+            1.0
+        ],
+        "notes": "RBC drug delivery properties"
+    },
+    {
+        "category": "Identical",
+        "domain": "Academic",
+        "subdomain": "Blood Research",
+        "text1": "Structural integrity during freezing and drying and protection of cell viability is one of the main functions of trehaloses",
+        "text2": "Structural integrity during freezing and drying and protection of cell viability is one of the main functions of trehaloses",
+        "source": "Zadeh Mehrizi (2022), p.2269",
+        "expected_range": [
+            0.95,
+            1.0
+        ],
+        "notes": "Trehalose function"
+    },
+    {
+        "category": "Identical",
+        "domain": "Academic",
+        "subdomain": "Blood Research",
+        "text1": "Anticoagulants, storage temperature, and storage equipment influence blood products' storage performance and stability",
+        "text2": "Anticoagulants, storage temperature, and storage equipment influence blood products' storage performance and stability",
+        "source": "Zadeh Mehrizi (2022), p.2263",
+        "expected_range": [
+            0.95,
+            1.0
+        ],
+        "notes": "Storage factors"
+    },
+    {
+        "category": "Identical",
+        "domain": "Academic",
+        "subdomain": "Blood Research",
+        "text1": "The prothrombin protein is then activated in the form of the enzyme thrombin during the activation reaction",
+        "text2": "The prothrombin protein is then activated in the form of the enzyme thrombin during the activation reaction",
+        "source": "Zadeh Mehrizi (2022), p.2285",
+        "expected_range": [
+            0.95,
+            1.0
+        ],
+        "notes": "Prothrombin activation"
+    },
+    {
+        "category": "Identical",
+        "domain": "Academic",
+        "subdomain": "Blood Research",
+        "text1": "Nano-filtration is one of the practical methods in processing plasma derivatives to remove infectious particles of viruses or prius",
+        "text2": "Nano-filtration is one of the practical methods in processing plasma derivatives to remove infectious particles of viruses or prius",
+        "source": "Zadeh Mehrizi (2022), p.2277",
+        "expected_range": [
+            0.95,
+            1.0
+        ],
+        "notes": "Nano-filtration application"
+    },
+    {
+        "category": "Paraphrase",
+        "domain": "Academic",
+        "subdomain": "Blood Research",
+        "text1": "Liposomes can be considered an effective way to minimize RBC hypothermia storage membrane lesions",
+        "text2": "Liposome nanoparticles serve as efficient preservatives to reduce membrane damage during cold storage of red blood cells",
+        "source": "Zadeh Mehrizi (2022), p.2268",
+        "expected_range": [
+            0.8,
+            0.95
+        ],
+        "notes": "Same meaning expressed differently about liposome preservation"
+    },
+    {
+        "category": "Paraphrase",
+        "domain": "Academic",
+        "subdomain": "Blood Research",
+        "text1": "Platelet adhesion and aggregation were reduced due to the hydrophilic and negatively charged surface properties of polyurethane membranes",
+        "text2": "The hydrophilic nature and negative charge characteristics of polyurethane membranes resulted in decreased platelet attachment and clumping",
+        "source": "Zadeh Mehrizi (2022), p.2286",
+        "expected_range": [
+            0.8,
+            0.95
+        ],
+        "notes": "Reworded description of polyurethane membrane effects"
+    },
+    {
+        "category": "Paraphrase",
+        "domain": "Academic",
+        "subdomain": "Blood Research",
+        "text1": "Albumin is often used as an intravenous injection of a plasma dilating agent in severe patients",
+        "text2": "In critically ill patients, albumin is frequently administered through IV to act as a plasma volume expander",
+        "source": "Zadeh Mehrizi (2022), p.2277",
+        "expected_range": [
+            0.8,
+            0.95
+        ],
+        "notes": "Different phrasing of albumin clinical use"
+    },
+    {
+        "category": "Paraphrase",
+        "domain": "Academic",
+        "subdomain": "Blood Research",
+        "text1": "Hemolysis is a destructive and challenging phenomenon involving rupture of red blood cells and release of their contents into plasma",
+        "text2": "When erythrocytes break open and spill their internal components into the blood plasma, this damaging process is known as hemolysis",
+        "source": "Zadeh Mehrizi (2022), p.2268",
+        "expected_range": [
+            0.8,
+            0.95
+        ],
+        "notes": "Different phrasing of hemolysis definition"
+    },
+    {
+        "category": "Paraphrase",
+        "domain": "Academic",
+        "subdomain": "Blood Research",
+        "text1": "One of the main challenges in blood transfusion and storage is a blood type mismatch, leading to severe reactions in blood receivers",
+        "text2": "Blood type incompatibility represents a major obstacle in transfusion medicine, as it can cause serious adverse reactions in recipients",
+        "source": "Zadeh Mehrizi (2022), p.2267",
+        "expected_range": [
+            0.8,
+            0.95
+        ],
+        "notes": "Restated blood type matching challenge"
+    },
+    {
+        "category": "Paraphrase",
+        "domain": "Academic",
+        "subdomain": "Blood Research",
+        "text1": "Platelets are cellular components made up of parts of the cytoplasm attached to the cell membrane and are responsible for preventing bleeding",
+        "text2": "To stop bleeding, platelets function as cellular elements consisting of cytoplasmic fragments bound to cell membranes",
+        "source": "Zadeh Mehrizi (2022), p.2264",
+        "expected_range": [
+            0.8,
+            0.95
+        ],
+        "notes": "Reworded platelet description"
+    },
+    {
+        "category": "Paraphrase",
+        "domain": "Academic",
+        "subdomain": "Blood Research",
+        "text1": "Polymeric nanoparticles play an important role in increasing the stability and improving the quality of factor VIII products",
+        "text2": "The stability and quality of factor VIII preparations are significantly enhanced through the use of nanoparticles made from polymers",
+        "source": "Zadeh Mehrizi (2022), p.2279",
+        "expected_range": [
+            0.8,
+            0.95
+        ],
+        "notes": "Restated role of polymeric nanoparticles"
+    },
+    {
+        "category": "Paraphrase",
+        "domain": "Academic",
+        "subdomain": "Blood Research",
+        "text1": "Using negatively charged nanoparticles with low molecular weight can increase the storage time of platelets",
+        "text2": "Platelet storage duration can be extended through the application of low molecular weight nanoparticles bearing negative charges",
+        "source": "Zadeh Mehrizi (2022), p.2269",
+        "expected_range": [
+            0.8,
+            0.95
+        ],
+        "notes": "Different expression of nanoparticle effects"
+    },
+    {
+        "category": "Paraphrase",
+        "domain": "Academic",
+        "subdomain": "Blood Research",
+        "text1": "Chitosan nanoparticles, liposomes, and lipid nanoparticles were also introduced as stabilizing agents to enhance albumin quality",
+        "text2": "To improve albumin quality, researchers employed various stabilizing agents including nanoparticles made from chitosan, lipids, and liposomal formations",
+        "source": "Zadeh Mehrizi (2022), p.2269",
+        "expected_range": [
+            0.8,
+            0.95
+        ],
+        "notes": "Reworded description of stabilizing agents"
+    },
+    {
+        "category": "Paraphrase",
+        "domain": "Academic",
+        "subdomain": "Blood Research",
+        "text1": "Storage lesions have a significant effect on the characteristics of red blood cells",
+        "text2": "The properties of red blood cells are substantially impacted by damage occurring during storage",
+        "source": "Zadeh Mehrizi (2022), p.2267",
+        "expected_range": [
+            0.8,
+            0.95
+        ],
+        "notes": "Restated storage lesion effects"
+    },
+    {
+        "category": "Paraphrase",
+        "domain": "Academic",
+        "subdomain": "Blood Research",
+        "text1": "Plasma is the fluid part of the blood that contains red blood cells, white blood cells, platelets, and other substances",
+        "text2": "Blood plasma serves as the liquid medium containing various components including erythrocytes, leukocytes, platelets and additional elements",
+        "source": "Zadeh Mehrizi (2022), p.2276",
+        "expected_range": [
+            0.8,
+            0.95
+        ],
+        "notes": "Different phrasing of plasma composition"
+    },
+    {
+        "category": "Paraphrase",
+        "domain": "Academic",
+        "subdomain": "Blood Research",
+        "text1": "The prothrombin protein is activated into the enzyme thrombin during the activation reaction",
+        "text2": "During the activation process, prothrombin undergoes conversion to become the enzymatic form known as thrombin",
+        "source": "Zadeh Mehrizi (2022), p.2285",
+        "expected_range": [
+            0.8,
+            0.95
+        ],
+        "notes": "Reworded protein activation process"
+    },
+    {
+        "category": "Paraphrase",
+        "domain": "Academic",
+        "subdomain": "Blood Research",
+        "text1": "Fibrin forms a net-like state around the wound, trapping blood cells and causing clots to form",
+        "text2": "Blood cells become entrapped in a mesh-like structure of fibrin surrounding the injury site, resulting in clot formation",
+        "source": "Zadeh Mehrizi (2022), p.2285",
+        "expected_range": [
+            0.8,
+            0.95
+        ],
+        "notes": "Different description of clotting process"
+    },
+    {
+        "category": "Paraphrase",
+        "domain": "Academic",
+        "subdomain": "Blood Research",
+        "text1": "Blood components similar to temperature-sensitive products must be kept within a suitable temperature range of +2°C and +6°C",
+        "text2": "Like other temperature-sensitive materials, blood components require storage at specific temperatures between 2 and 6 degrees Celsius",
+        "source": "Zadeh Mehrizi (2022), p.2266",
+        "expected_range": [
+            0.8,
+            0.95
+        ],
+        "notes": "Restated temperature requirements"
+    },
+    {
+        "category": "Paraphrase",
+        "domain": "Academic",
+        "subdomain": "Blood Research",
+        "text1": "Immunoglobulins act as a vital part of the immune response by identifying and binding to specific antigens",
+        "text2": "As crucial components of immunity, immunoglobulins function by recognizing and attaching to particular antigens",
+        "source": "Zadeh Mehrizi (2022), p.2277",
+        "expected_range": [
+            0.8,
+            0.95
+        ],
+        "notes": "Reworded immunoglobulin function"
+    },
+    {
+        "category": "Paraphrase",
+        "domain": "Academic",
+        "subdomain": "Blood Research",
+        "text1": "Deep vein thrombosis and pulmonary embolism are the effects of high levels of factor VIII in individuals",
+        "text2": "Elevated factor VIII levels in patients can lead to blood clots in deep veins and pulmonary blood vessels",
+        "source": "Zadeh Mehrizi (2022), p.2279",
+        "expected_range": [
+            0.8,
+            0.95
+        ],
+        "notes": "Different expression of Factor VIII effects"
+    },
+    {
+        "category": "Paraphrase",
+        "domain": "Academic",
+        "subdomain": "Blood Research",
+        "text1": "Hepatic sinusoidal cells and endogenous layer cells throughout the body are the factor VIII production sites",
+        "text2": "Factor VIII is synthesized in cells of the liver sinusoids and in endogenous cells distributed across various body tissues",
+        "source": "Zadeh Mehrizi (2022), p.2279",
+        "expected_range": [
+            0.8,
+            0.95
+        ],
+        "notes": "Reworded Factor VIII production locations"
+    },
+    {
+        "category": "Paraphrase",
+        "domain": "Academic",
+        "subdomain": "Blood Research",
+        "text1": "Positively charged nanoparticles harm RBCs and platelets by inducing RBC rupture and platelets aggregation",
+        "text2": "Nanoparticles with positive charges cause damage to blood components by breaking open red blood cells and causing platelets to cluster",
+        "source": "Zadeh Mehrizi (2022), p.2269",
+        "expected_range": [
+            0.8,
+            0.95
+        ],
+        "notes": "Restated harmful effects of positive nanoparticles"
+    },
+    {
+        "category": "Paraphrase",
+        "domain": "Academic",
+        "subdomain": "Blood Research",
+        "text1": "Nano-filtration of HSA virus removal in biological processing was a viable alternative to virus inactivation methods",
+        "text2": "For removing viruses during biological processing of HSA, nano-filtration provided an effective option compared to traditional viral inactivation approaches",
+        "source": "Zadeh Mehrizi (2022), p.2277",
+        "expected_range": [
+            0.8,
+            0.95
+        ],
+        "notes": "Different phrasing of nano-filtration benefits"
+    },
+    {
+        "category": "Paraphrase",
+        "domain": "Academic",
+        "subdomain": "Blood Research",
+        "text1": "The length of acyl-lipid chains significantly affects cholesterol exchange and lipid transfer between liposomes consisting of saturated lipids and RBCs",
+        "text2": "Cholesterol exchange and lipid movement between RBCs and saturated lipid liposomes is heavily influenced by the acyl-lipid chain length",
+        "source": "Zadeh Mehrizi (2022), p.2270",
+        "expected_range": [
+            0.8,
+            0.95
+        ],
+        "notes": "Reworded lipid chain effects"
+    },
+    {
+        "category": "Paraphrase",
+        "domain": "Academic",
+        "subdomain": "Blood Research",
+        "text1": "Restenosis, thrombosis, and atherosclerosis are dangerous complications of adhesion and activated platelet aggregation",
+        "text2": "When platelets adhere and aggregate after activation, they can cause severe complications including blood vessel re-narrowing, clot formation, and arterial plaque buildup",
+        "source": "Zadeh Mehrizi (2022), p.2286",
+        "expected_range": [
+            0.8,
+            0.95
+        ],
+        "notes": "Different expression of platelet complications"
+    },
+    {
+        "category": "Paraphrase",
+        "domain": "Academic",
+        "subdomain": "Blood Research",
+        "text1": "The main functions of citrate, dextrose, and adenine are to prevent blood clots and to help red blood cells to maintain ATP during storage",
+        "text2": "Citrate prevents clotting while dextrose and adenine assist red blood cells in preserving their ATP levels throughout the storage period",
+        "source": "Zadeh Mehrizi (2022), p.2266",
+        "expected_range": [
+            0.8,
+            0.95
+        ],
+        "notes": "Restated preservative functions"
+    },
+    {
+        "category": "Paraphrase",
+        "domain": "Academic",
+        "subdomain": "Blood Research",
+        "text1": "One of the essential primary uses of human albumin is to modulate plasma oncotic pressure and transfer various substances called ligands",
+        "text2": "Human albumin serves crucial functions including regulation of plasma oncotic pressure and transportation of different ligand molecules",
+        "source": "Zadeh Mehrizi (2022), p.2276",
+        "expected_range": [
+            0.8,
+            0.95
+        ],
+        "notes": "Different phrasing of albumin functions"
+    },
+    {
+        "category": "Similar Content",
+        "domain": "Academic",
+        "subdomain": "Blood Research",
+        "text1": "Liposome nanoparticles are effective preservatives for RBCs during hypothermal conditions",
+        "text2": "Incorporating liposomes into RBCs can minimize hypothermia storage membrane lesions and preserve RBCs biologically",
+        "source": "Zadeh Mehrizi (2022), p.2268",
+        "expected_range": [
+            0.6,
+            0.8
+        ],
+        "notes": "Related descriptions of liposome preservation with different specifics"
+    },
+    {
+        "category": "Similar Content",
+        "domain": "Academic",
+        "subdomain": "Blood Research",
+        "text1": "Blood products must be kept within a suitable temperature range (+2°C and +6°C) to be appropriately stored",
+        "text2": "One of the main problems arising from not keeping blood products at the desired temperature is reduced ability to carry oxygen",
+        "source": "Zadeh Mehrizi (2022), p.2266",
+        "expected_range": [
+            0.6,
+            0.8
+        ],
+        "notes": "Related aspects of temperature storage requirements"
+    },
+    {
+        "category": "Similar Content",
+        "domain": "Academic",
+        "subdomain": "Blood Research",
+        "text1": "Positively charged nanoparticles caused RBC rupture and are not recommended for RBC storage",
+        "text2": "The hemolytic behavior of NPs and the overall interaction of NPs with RBCs has a significant effect on the performance of the NP surface",
+        "source": "Zadeh Mehrizi (2022), p.2269",
+        "expected_range": [
+            0.6,
+            0.8
+        ],
+        "notes": "Related concepts about nanoparticle-RBC interaction"
+    },
+    {
+        "category": "Similar Content",
+        "domain": "Academic",
+        "subdomain": "Blood Research",
+        "text1": "Albumin is often used as an intravenous injection of a plasma dilating agent in severe patients",
+        "text2": "One of the essential primary uses of human albumin is to modulate plasma oncotic pressure and transfer various substances",
+        "source": "Zadeh Mehrizi (2022), p.2277",
+        "expected_range": [
+            0.6,
+            0.8
+        ],
+        "notes": "Related aspects of albumin function with different specifics"
+    },
+    {
+        "category": "Similar Content",
+        "domain": "Academic",
+        "subdomain": "Blood Research",
+        "text1": "Restenosis is one of the challenges for patients treated with vascular stents due to unregulated factor XII",
+        "text2": "Platelet-targeted nanoparticles are a suitable alternative for conventional therapies in treating restenosis and thrombosis",
+        "source": "Zadeh Mehrizi (2022), p.2286",
+        "expected_range": [
+            0.6,
+            0.8
+        ],
+        "notes": "Related content about restenosis treatment approaches"
+    },
+    {
+        "category": "Similar Content",
+        "domain": "Academic",
+        "subdomain": "Blood Research",
+        "text1": "PAMAM dendrimers caused platelets aggregation and reduction in storage time of platelets",
+        "text2": "The number of amines on the surface of dendrimers directly affected the aggregation of large cationic dendrimers",
+        "source": "Zadeh Mehrizi (2022), p.2286",
+        "expected_range": [
+            0.6,
+            0.8
+        ],
+        "notes": "Related aspects of dendrimer effects on platelets"
+    },
+    {
+        "category": "Similar Content",
+        "domain": "Academic",
+        "subdomain": "Blood Research",
+        "text1": "Platelets are tiny blood cells made up of bone marrow cells called megakaryocytes",
+        "text2": "Blood clotting agents are released from damaged cells and platelets into the environment when skin is injured",
+        "source": "Zadeh Mehrizi (2022), p.2285",
+        "expected_range": [
+            0.6,
+            0.8
+        ],
+        "notes": "Related content about platelet characteristics and function"
+    },
+    {
+        "category": "Similar Content",
+        "domain": "Academic",
+        "subdomain": "Blood Research",
+        "text1": "Factor VIII is encoded by the F8 gene in humans and is essential for blood clotting",
+        "text2": "One of the significant challenges in treating hemophilia A is the production of inhibitory antibodies against factor VIII",
+        "source": "Zadeh Mehrizi (2022), p.2279",
+        "expected_range": [
+            0.6,
+            0.8
+        ],
+        "notes": "Related aspects of Factor VIII biology and treatment"
+    },
+    {
+        "category": "Similar Content",
+        "domain": "Academic",
+        "subdomain": "Blood Research",
+        "text1": "Nano-filtration is one of the practical methods in processing plasma derivatives to remove infectious particles",
+        "text2": "Nanofiltration of HSA virus removal in biological processing was a viable alternative to virus inactivation methods",
+        "source": "Zadeh Mehrizi (2022), p.2277",
+        "expected_range": [
+            0.6,
+            0.8
+        ],
+        "notes": "Related content about nanofiltration applications"
+    },
+    {
+        "category": "Similar Content",
+        "domain": "Academic",
+        "subdomain": "Blood Research",
+        "text1": "Storage lesions resulting from the function and viability of red cells during laboratory storage are important challenges",
+        "text2": "Decreased blood products function and durability, increased bacterial growth, and production of lytic toxin lipids are substantial disadvantages of long-term storage",
+        "source": "Zadeh Mehrizi (2022), p.2266",
+        "expected_range": [
+            0.6,
+            0.8
+        ],
+        "notes": "Related content about storage challenges"
+    },
+    {
+        "category": "Similar Content",
+        "domain": "Academic",
+        "subdomain": "Blood Research",
+        "text1": "Trehaloses protect structural integrity during freezing and drying and protection of cell viability",
+        "text2": "The transfer of micromolar concentrations of trehalose to cell cytosol by combining RBC with trehalose-containing liposomes can improve membrane quality",
+        "source": "Zadeh Mehrizi (2022), p.2269",
+        "expected_range": [
+            0.6,
+            0.8
+        ],
+        "notes": "Related aspects of trehalose protection mechanisms"
+    },
+    {
+        "category": "Similar Content",
+        "domain": "Academic",
+        "subdomain": "Blood Research",
+        "text1": "Immunoglobulins act as antibodies, identifying and binding to specific antigens such as bacteria or viruses",
+        "text2": "Using nanoparticle-based systems is a promising way to overcome the problems of oral administration to mAbs",
+        "source": "Zadeh Mehrizi (2022), p.2277-2278",
+        "expected_range": [
+            0.6,
+            0.8
+        ],
+        "notes": "Related content about immunoglobulin function and delivery"
+    },
+    {
+        "category": "Similar Content",
+        "domain": "Academic",
+        "subdomain": "Blood Research",
+        "text1": "Chitosan nanoparticles reduced protein leakage during short-term storage and achieved targeted colon delivery",
+        "text2": "The optimal nanoparticles had high diffusion and stability and were considered a suitable option for oral administration of albumin",
+        "source": "Zadeh Mehrizi (2022), p.2277",
+        "expected_range": [
+            0.6,
+            0.8
+        ],
+        "notes": "Related aspects of nanoparticle protein delivery"
+    },
+    {
+        "category": "Similar Content",
+        "domain": "Academic",
+        "subdomain": "Blood Research",
+        "text1": "Coronary thrombosis has a direct impact on the lethality of cardiovascular disease",
+        "text2": "Platelet adhesion and aggregation were reduced due to the hydrophilic and negatively charged surface properties of polyurethane membranes",
+        "source": "Zadeh Mehrizi (2022), p.2286",
+        "expected_range": [
+            0.6,
+            0.8
+        ],
+        "notes": "Related content about thrombosis and prevention"
+    },
+    {
+        "category": "Similar Content",
+        "domain": "Academic",
+        "subdomain": "Blood Research",
+        "text1": "Hemolysis phenomenon leads to the release of their contents in the surrounding fluid",
+        "text2": "One of the critical side effects of using nanoparticles is the rupture of intravascular red blood cells and the increase in the level of cell-free hemoglobin",
+        "source": "Zadeh Mehrizi (2022), p.2268-2269",
+        "expected_range": [
+            0.6,
+            0.8
+        ],
+        "notes": "Related aspects of hemolysis effects"
+    },
+    {
+        "category": "Similar Content",
+        "domain": "Academic",
+        "subdomain": "Blood Research",
+        "text1": "Plasma is a yellow liquid that includes 55% of the blood and consists of water (91 to 92%) and solid (8 to 9%)",
+        "text2": "Fresh-frozen plasma (FFP), cryoprecipitate-poor plasma (CPP), plasma frozen within 24h, and thawed plasma are the main plasma-derived products",
+        "source": "Zadeh Mehrizi (2022), p.2276",
+        "expected_range": [
+            0.6,
+            0.8
+        ],
+        "notes": "Related content about plasma composition and products"
+    },
+    {
+        "category": "Similar Content",
+        "domain": "Academic",
+        "subdomain": "Blood Research",
+        "text1": "Liposomes, engineered nanoparticles, or injectable platelet membranes are suggested alternatives to allogeneic platelet injections",
+        "text2": "One of the most common treatments for preventing and treating bleeding in thrombocytopenia is allogeneic platelet injection",
+        "source": "Zadeh Mehrizi (2022), p.2286",
+        "expected_range": [
+            0.6,
+            0.8
+        ],
+        "notes": "Related content about platelet treatment options"
+    },
+    {
+        "category": "Similar Content",
+        "domain": "Academic",
+        "subdomain": "Blood Research",
+        "text1": "The sensitivity of red cells to freezing and releasing hemoglobin following rupture of red cell membranes creates hemolysis phenomenon",
+        "text2": "Blood components similar to temperature-sensitive products must be kept within a suitable temperature range to be appropriately stored",
+        "source": "Zadeh Mehrizi (2022), p.2266",
+        "expected_range": [
+            0.6,
+            0.8
+        ],
+        "notes": "Related content about temperature sensitivity of blood components"
+    },
+    {
+        "category": "Similar Content",
+        "domain": "Academic",
+        "subdomain": "Blood Research",
+        "text1": "Using polymeric nanoparticles is a promising technique to address challenges in storage and maintaining the quality of blood products",
+        "text2": "Unique properties such as controlled release, improved bioavailability, and therapeutic index have caused polymeric nanoparticles to be considered by researchers",
+        "source": "Zadeh Mehrizi (2022), p.2290",
+        "expected_range": [
+            0.6,
+            0.8
+        ],
+        "notes": "Related content about benefits of polymeric nanoparticles"
+    },
+    {
+        "category": "Similar Content",
+        "domain": "Academic",
+        "subdomain": "Blood Research",
+        "text1": "Abundant circulating proteins in plasma are called albumin, which is synthesized by liver cells",
+        "text2": "Oral albumin administration can be effective in improving patient compliance compared to intravenous injection",
+        "source": "Zadeh Mehrizi (2022), p.2277",
+        "expected_range": [
+            0.6,
+            0.8
+        ],
+        "notes": "Related content about albumin characteristics and administration"
+    },
+    {
+        "category": "Related Topic",
+        "domain": "Academic",
+        "subdomain": "Blood Research",
+        "text1": "Platelets are tiny blood cells made up of bone marrow cells called megakaryocytes",
+        "text2": "Dobrovolskaia et al. used PAMAM dendrimers with different surface sizes and charges formulations to investigate platelet aggregation",
+        "source": "Zadeh Mehrizi (2022), p.2285, 2286",
+        "expected_range": [
+            0.4,
+            0.6
+        ],
+        "notes": "Both discuss platelets but in different contexts - biology vs. research applications"
+    },
+    {
+        "category": "Related Topic",
+        "domain": "Academic",
+        "subdomain": "Blood Research",
+        "text1": "Fresh-frozen plasma (FFP), cryoprecipitate-poor plasma (CPP), plasma frozen within 24h of phlebotomy are plasma-derived products",
+        "text2": "Nano-filtration is used in processing plasma derivatives to remove infectious particles of viruses",
+        "source": "Zadeh Mehrizi (2022), p.2276, 2277",
+        "expected_range": [
+            0.4,
+            0.6
+        ],
+        "notes": "Both discuss plasma products but focus on different aspects - types vs. processing"
+    },
+    {
+        "category": "Related Topic",
+        "domain": "Academic",
+        "subdomain": "Blood Research",
+        "text1": "The F8 gene encodes factor VIII in humans, one of the essential proteins for blood clotting",
+        "text2": "Using lipid nanoparticles could enhance endogenous protein production in severe experimental hemophilia A",
+        "source": "Zadeh Mehrizi (2022), p.2279",
+        "expected_range": [
+            0.4,
+            0.6
+        ],
+        "notes": "Both relate to Factor VIII but discuss different aspects - genetics vs. treatment"
+    },
+    {
+        "category": "Related Topic",
+        "domain": "Academic",
+        "subdomain": "Blood Research",
+        "text1": "Anticoagulants, storage temperature, and storage equipment influence blood products' storage performance",
+        "text2": "Decreased blood products function and durability leads to increased bacterial growth during long-term storage",
+        "source": "Zadeh Mehrizi (2022), p.2266",
+        "expected_range": [
+            0.4,
+            0.6
+        ],
+        "notes": "Both discuss blood storage but focus on different aspects - conditions vs. consequences"
+    },
+    {
+        "category": "Related Topic",
+        "domain": "Academic",
+        "subdomain": "Blood Research",
+        "text1": "Immunoglobulins are glycoprotein molecules produced by plasma cells (white blood cells)",
+        "text2": "Chitosan nanoparticles were suggested as effective preservatives for immunoglobulins in different studies",
+        "source": "Zadeh Mehrizi (2022), p.2277",
+        "expected_range": [
+            0.4,
+            0.6
+        ],
+        "notes": "Both about immunoglobulins but discuss biology vs. preservation"
+    },
+    {
+        "category": "Related Topic",
+        "domain": "Academic",
+        "subdomain": "Blood Research",
+        "text1": "Red blood cells are small cells specifically designed to carry oxygen from the lungs to the cells",
+        "text2": "Liposome nanoparticles can minimize RBC hypothermia storage membrane lesions",
+        "source": "Zadeh Mehrizi (2022), p.2264, 2268",
+        "expected_range": [
+            0.4,
+            0.6
+        ],
+        "notes": "Both about RBCs but discuss function vs. preservation"
+    },
+    {
+        "category": "Related Topic",
+        "domain": "Academic",
+        "subdomain": "Blood Research",
+        "text1": "Hemolysis is a destructive phenomenon involving rupture of red blood cells",
+        "text2": "The properties of polymeric nanoparticles such as particle size and oxygen content affect lipid peroxidation",
+        "source": "Zadeh Mehrizi (2022), p.2268",
+        "expected_range": [
+            0.4,
+            0.6
+        ],
+        "notes": "Both relate to cell damage but discuss different mechanisms"
+    },
+    {
+        "category": "Related Topic",
+        "domain": "Academic",
+        "subdomain": "Blood Research",
+        "text1": "Blood clotting agents are released from damaged cells and platelets when skin is injured",
+        "text2": "PAMAM dendrimers have been studied to evaluate components of the blood coagulation system",
+        "source": "Zadeh Mehrizi (2022), p.2285, 2286",
+        "expected_range": [
+            0.4,
+            0.6
+        ],
+        "notes": "Both about blood clotting but discuss natural process vs. research"
+    },
+    {
+        "category": "Related Topic",
+        "domain": "Academic",
+        "subdomain": "Blood Research",
+        "text1": "Albumin is synthesized by liver cells and rapidly excreted through the bloodstream",
+        "text2": "Oral administration of albumin using chitosan nanoparticles can improve patient compliance",
+        "source": "Zadeh Mehrizi (2022), p.2276, 2277",
+        "expected_range": [
+            0.4,
+            0.6
+        ],
+        "notes": "Both about albumin but discuss production vs. delivery"
+    },
+    {
+        "category": "Related Topic",
+        "domain": "Academic",
+        "subdomain": "Blood Research",
+        "text1": "Plasma proteins maintain colloidal osmotic pressure using albumin and globulin",
+        "text2": "Nanofiltration methods can be used to remove viral contamination from plasma products",
+        "source": "Zadeh Mehrizi (2022), p.2276, 2277",
+        "expected_range": [
+            0.4,
+            0.6
+        ],
+        "notes": "Both about plasma but discuss function vs. processing"
+    },
+    {
+        "category": "Related Topic",
+        "domain": "Academic",
+        "subdomain": "Blood Research",
+        "text1": "The prothrombin protein is activated into the enzyme thrombin during clotting",
+        "text2": "Polymeric nanoparticles can help regulate coagulation cascade components",
+        "source": "Zadeh Mehrizi (2022), p.2285, 2286",
+        "expected_range": [
+            0.4,
+            0.6
+        ],
+        "notes": "Both about coagulation but discuss natural process vs. intervention"
+    },
+    {
+        "category": "Related Topic",
+        "domain": "Academic",
+        "subdomain": "Blood Research",
+        "text1": "Fibrin forms a net-like structure around wounds to trap blood cells",
+        "text2": "Restenosis occurs in patients treated with vascular stents due to unregulated factor XII",
+        "source": "Zadeh Mehrizi (2022), p.2285, 2286",
+        "expected_range": [
+            0.4,
+            0.6
+        ],
+        "notes": "Both about blood vessel processes but different contexts"
+    },
+    {
+        "category": "Related Topic",
+        "domain": "Academic",
+        "subdomain": "Blood Research",
+        "text1": "Storage lesions affect the characteristics of red blood cells during laboratory storage",
+        "text2": "Trehalose can protect structural integrity during freezing and drying of cells",
+        "source": "Zadeh Mehrizi (2022), p.2267, 2269",
+        "expected_range": [
+            0.4,
+            0.6
+        ],
+        "notes": "Both about cell preservation but different approaches"
+    },
+    {
+        "category": "Related Topic",
+        "domain": "Academic",
+        "subdomain": "Blood Research",
+        "text1": "Deep vein thrombosis can result from high levels of factor VIII",
+        "text2": "Platelet adhesion and aggregation contribute to blood vessel occlusion",
+        "source": "Zadeh Mehrizi (2022), p.2279, 2286",
+        "expected_range": [
+            0.4,
+            0.6
+        ],
+        "notes": "Both about thrombosis but different mechanisms"
+    },
+    {
+        "category": "Related Topic",
+        "domain": "Academic",
+        "subdomain": "Blood Research",
+        "text1": "Crown protein production occurs due to interactions between nanoparticles and platelets",
+        "text2": "Plasma proteins can be adsorbed on the surface of nanoparticles",
+        "source": "Zadeh Mehrizi (2022), p.2266",
+        "expected_range": [
+            0.4,
+            0.6
+        ],
+        "notes": "Both about protein-nanoparticle interactions but different contexts"
+    },
+    {
+        "category": "Related Topic",
+        "domain": "Academic",
+        "subdomain": "Blood Research",
+        "text1": "Hemophilia A is caused by a disorder in the F8 gene",
+        "text2": "Lipid nanoparticles can be used to deliver therapeutic proteins",
+        "source": "Zadeh Mehrizi (2022), p.2279",
+        "expected_range": [
+            0.4,
+            0.6
+        ],
+        "notes": "Both about protein therapy but discuss disease vs. treatment"
+    },
+    {
+        "category": "Related Topic",
+        "domain": "Academic",
+        "subdomain": "Blood Research",
+        "text1": "Citrate and dextrose help prevent blood clots during storage",
+        "text2": "Surface charge of nanoparticles affects their interaction with blood components",
+        "source": "Zadeh Mehrizi (2022), p.2266, 2269",
+        "expected_range": [
+            0.4,
+            0.6
+        ],
+        "notes": "Both about blood preservation but different approaches"
+    },
+    {
+        "category": "Related Topic",
+        "domain": "Academic",
+        "subdomain": "Blood Research",
+        "text1": "Monoclonal antibodies can be delivered through cell membranes",
+        "text2": "Nanoparticle-based systems can overcome problems of oral administration",
+        "source": "Zadeh Mehrizi (2022), p.2278",
+        "expected_range": [
+            0.4,
+            0.6
+        ],
+        "notes": "Both about drug delivery but different methods"
+    },
+    {
+        "category": "Related Topic",
+        "domain": "Academic",
+        "subdomain": "Blood Research",
+        "text1": "The acyl-lipid chain length affects cholesterol exchange between liposomes and RBCs",
+        "text2": "Membrane stabilization can be achieved through polymer coating",
+        "source": "Zadeh Mehrizi (2022), p.2270",
+        "expected_range": [
+            0.4,
+            0.6
+        ],
+        "notes": "Both about membrane interactions but different mechanisms"
+    },
+    {
+        "category": "Related Topic",
+        "domain": "Academic",
+        "subdomain": "Blood Research",
+        "text1": "Blood type mismatch can lead to severe reactions in blood receivers",
+        "text2": "Nanoparticles can be used to modify cell surface properties",
+        "source": "Zadeh Mehrizi (2022), p.2267",
+        "expected_range": [
+            0.4,
+            0.6
+        ],
+        "notes": "Both about blood compatibility but different aspects"
+    },
+    {
+        "category": "Different Domain",
+        "domain": "Academic",
+        "subdomain": "Blood Research vs. Materials Science",
+        "text1": "Red blood cells are specifically designed to carry oxygen from lungs to cells",
+        "text2": "The chemical properties of polymeric nanoparticles determine their surface interactions",
+        "source": "Zadeh Mehrizi (2022), p.2264, 2269",
+        "expected_range": [
+            0.2,
+            0.4
+        ],
+        "notes": "Biology vs. materials science domains"
+    },
+    {
+        "category": "Different Domain",
+        "domain": "Academic",
+        "subdomain": "Blood Research vs. Chemistry",
+        "text1": "Platelets are cellular components that prevent bleeding by clotting",
+        "text2": "Polymer synthesis requires controlled conditions and specific chemical reactions",
+        "source": "Zadeh Mehrizi (2022), p.2264, 2267",
+        "expected_range": [
+            0.2,
+            0.4
+        ],
+        "notes": "Cell biology vs. chemical synthesis"
+    },
+    {
+        "category": "Different Domain",
+        "domain": "Academic",
+        "subdomain": "Blood Research vs. Pharmacology",
+        "text1": "Plasma proteins maintain colloidal osmotic pressure in blood",
+        "text2": "Drug delivery systems require specific carrier molecules for targeted release",
+        "source": "Zadeh Mehrizi (2022), p.2276, 2278",
+        "expected_range": [
+            0.2,
+            0.4
+        ],
+        "notes": "Physiology vs. drug delivery"
+    },
+    {
+        "category": "Different Domain",
+        "domain": "Academic",
+        "subdomain": "Blood Research vs. Engineering",
+        "text1": "Blood clotting occurs when platelets aggregate at injury sites",
+        "text2": "Nanoparticle synthesis requires precise control of size distribution",
+        "source": "Zadeh Mehrizi (2022), p.2285, 2269",
+        "expected_range": [
+            0.2,
+            0.4
+        ],
+        "notes": "Biology vs. materials engineering"
+    },
+    {
+        "category": "Different Domain",
+        "domain": "Academic",
+        "subdomain": "Blood Research vs. Physical Chemistry",
+        "text1": "Immunoglobulins act by binding to specific antigens",
+        "text2": "Surface charge affects molecular interactions in colloidal systems",
+        "source": "Zadeh Mehrizi (2022), p.2277, 2269",
+        "expected_range": [
+            0.2,
+            0.4
+        ],
+        "notes": "Immunology vs. physical chemistry"
+    },
+    {
+        "category": "Different Domain",
+        "domain": "Academic",
+        "subdomain": "Blood Research vs. Materials Processing",
+        "text1": "Factor VIII is essential for proper blood coagulation",
+        "text2": "Polymer cross-linking affects material stability and degradation",
+        "source": "Zadeh Mehrizi (2022), p.2279, 2267",
+        "expected_range": [
+            0.2,
+            0.4
+        ],
+        "notes": "Coagulation biology vs. materials processing"
+    },
+    {
+        "category": "Different Domain",
+        "domain": "Academic",
+        "subdomain": "Blood Research vs. Physics",
+        "text1": "Hemolysis involves rupture of red blood cell membranes",
+        "text2": "Particle size distribution affects colloidal suspension stability",
+        "source": "Zadeh Mehrizi (2022), p.2268, 2269",
+        "expected_range": [
+            0.2,
+            0.4
+        ],
+        "notes": "Cell biology vs. physical properties"
+    },
+    {
+        "category": "Different Domain",
+        "domain": "Academic",
+        "subdomain": "Blood Research vs. Analytical Chemistry",
+        "text1": "Albumin helps maintain proper blood pressure through osmotic effects",
+        "text2": "Chromatography methods can separate and analyze protein components",
+        "source": "Zadeh Mehrizi (2022), p.2276, 2277",
+        "expected_range": [
+            0.2,
+            0.4
+        ],
+        "notes": "Physiology vs. analytical methods but both about proteins"
+    },
+    {
+        "category": "Different Domain",
+        "domain": "Academic",
+        "subdomain": "Blood Research vs. Polymer Science",
+        "text1": "Blood plasma contains various clotting factors and proteins",
+        "text2": "The molecular weight of polymers affects their physical properties",
+        "source": "Zadeh Mehrizi (2022), p.2276, 2267",
+        "expected_range": [
+            0.2,
+            0.4
+        ],
+        "notes": "Blood components vs. polymer properties but both about molecular characteristics"
+    },
+    {
+        "category": "Different Domain",
+        "domain": "Academic",
+        "subdomain": "Blood Research vs. Materials Engineering",
+        "text1": "Storage lesions affect red blood cell membrane integrity",
+        "text2": "Surface modification techniques can alter material properties",
+        "source": "Zadeh Mehrizi (2022), p.2267, 2269",
+        "expected_range": [
+            0.2,
+            0.4
+        ],
+        "notes": "Cell biology vs. materials science but both about surface properties"
+    },
+    {
+        "category": "Different Domain",
+        "domain": "Academic",
+        "subdomain": "Blood Research vs. Physical Chemistry",
+        "text1": "Platelets aggregate to form blood clots at injury sites",
+        "text2": "Particle aggregation depends on surface charge interactions",
+        "source": "Zadeh Mehrizi (2022), p.2285, 2269",
+        "expected_range": [
+            0.2,
+            0.4
+        ],
+        "notes": "Biology vs. chemistry but both about aggregation processes"
+    },
+    {
+        "category": "Different Domain",
+        "domain": "Academic",
+        "subdomain": "Blood Research vs. Bioengineering",
+        "text1": "Factor VIII deficiency leads to clotting disorders",
+        "text2": "Protein engineering can modify molecular function",
+        "source": "Zadeh Mehrizi (2022), p.2279, 2277",
+        "expected_range": [
+            0.2,
+            0.4
+        ],
+        "notes": "Medical condition vs. engineering but both about protein function"
+    },
+    {
+        "category": "Different Domain",
+        "domain": "Academic",
+        "subdomain": "Blood Research vs. Nanotechnology",
+        "text1": "Blood cells maintain specific shapes for their function",
+        "text2": "Nanoparticle morphology affects their biological interactions",
+        "source": "Zadeh Mehrizi (2022), p.2264, 2269",
+        "expected_range": [
+            0.2,
+            0.4
+        ],
+        "notes": "Cell biology vs. materials science but both about structural effects"
+    },
+    {
+        "category": "Different Domain",
+        "domain": "Academic",
+        "subdomain": "Blood Research vs. Surface Chemistry",
+        "text1": "Cell membrane composition affects blood cell function",
+        "text2": "Surface chemistry determines nanoparticle-protein interactions",
+        "source": "Zadeh Mehrizi (2022), p.2267, 2269",
+        "expected_range": [
+            0.2,
+            0.4
+        ],
+        "notes": "Biology vs. chemistry but both about surface interactions"
+    },
+    {
+        "category": "Different Domain",
+        "domain": "Academic",
+        "subdomain": "Blood Research vs. Process Engineering",
+        "text1": "Blood storage requires specific temperature conditions",
+        "text2": "Manufacturing processes control nanoparticle characteristics",
+        "source": "Zadeh Mehrizi (2022), p.2266, 2269",
+        "expected_range": [
+            0.2,
+            0.4
+        ],
+        "notes": "Medical storage vs. manufacturing but both about condition control"
+    },
+    {
+        "category": "Different Domain",
+        "domain": "Academic",
+        "subdomain": "Blood Research vs. Materials Analysis",
+        "text1": "Plasma protein composition affects blood function",
+        "text2": "Spectroscopic methods analyze material composition",
+        "source": "Zadeh Mehrizi (2022), p.2276, 2267",
+        "expected_range": [
+            0.2,
+            0.4
+        ],
+        "notes": "Biology vs. analysis but both about composition"
+    },
+    {
+        "category": "Different Domain",
+        "domain": "Academic",
+        "subdomain": "Blood Research vs. Chemical Engineering",
+        "text1": "Red blood cells transport oxygen through the body",
+        "text2": "Carrier molecules transport therapeutic agents",
+        "source": "Zadeh Mehrizi (2022), p.2264, 2278",
+        "expected_range": [
+            0.2,
+            0.4
+        ],
+        "notes": "Biology vs. engineering but both about transport"
+    },
+    {
+        "category": "Different Domain",
+        "domain": "Academic",
+        "subdomain": "Blood Research vs. Physical Analysis",
+        "text1": "Blood viscosity affects circulation",
+        "text2": "Solution rheology affects nanoparticle behavior",
+        "source": "Zadeh Mehrizi (2022), p.2276, 2269",
+        "expected_range": [
+            0.2,
+            0.4
+        ],
+        "notes": "Physiology vs. physics but both about fluid properties"
+    },
+    {
+        "category": "Different Domain",
+        "domain": "Academic",
+        "subdomain": "Blood Research vs. Biomaterials",
+        "text1": "Platelet activation triggers clotting cascades",
+        "text2": "Material surface properties trigger protein responses",
+        "source": "Zadeh Mehrizi (2022), p.2285, 2269",
+        "expected_range": [
+            0.2,
+            0.4
+        ],
+        "notes": "Biology vs. materials but both about activation processes"
+    },
+    {
+        "category": "Different Domain",
+        "domain": "Academic",
+        "subdomain": "Blood Research vs. Polymer Chemistry",
+        "text1": "Blood proteins have specific binding sites",
+        "text2": "Polymer functional groups determine binding capacity",
+        "source": "Zadeh Mehrizi (2022), p.2276, 2267",
+        "expected_range": [
+            0.2,
+            0.4
+        ],
+        "notes": "Biochemistry vs. polymer chemistry but both about binding"
+    },
+    {
+        "category": "Different Domain",
+        "domain": "Academic",
+        "subdomain": "Blood Research vs. Material Properties",
+        "text1": "Liposomes preserve blood cell membrane integrity",
+        "text2": "Material encapsulation efficiency depends on particle size",
+        "source": "Zadeh Mehrizi (2022), p.2268, 2269",
+        "expected_range": [
+            0.2,
+            0.4
+        ],
+        "notes": "Cell preservation vs. material properties but both about containment"
+    },
+    {
+        "category": "Different Domain",
+        "domain": "Academic",
+        "subdomain": "Blood Research vs. Process Development",
+        "text1": "Blood fractionation separates cellular components",
+        "text2": "Nanoparticle synthesis requires controlled separation steps",
+        "source": "Zadeh Mehrizi (2022), p.2276, 2267",
+        "expected_range": [
+            0.2,
+            0.4
+        ],
+        "notes": "Medical separation vs. chemical processing but both about fractionation"
+    },
+    {
+        "category": "Different Domain",
+        "domain": "Academic",
+        "subdomain": "Blood Research vs. Pharmaceutical Science",
+        "text1": "Plasma proteins transport various molecules",
+        "text2": "Drug delivery systems control molecular release",
+        "source": "Zadeh Mehrizi (2022), p.2276, 2278",
+        "expected_range": [
+            0.2,
+            0.4
+        ],
+        "notes": "Natural transport vs. drug delivery but both about molecular movement"
+    },
+    {
+        "category": "Different Domain",
+        "domain": "Academic",
+        "subdomain": "Blood Research vs. Analytical Methods",
+        "text1": "Blood storage quality requires monitoring",
+        "text2": "Analytical techniques measure particle characteristics",
+        "source": "Zadeh Mehrizi (2022), p.2266, 2269",
+        "expected_range": [
+            0.2,
+            0.4
+        ],
+        "notes": "Quality monitoring vs. analysis but both about measurement"
+    },
+    {
+        "category": "Different Domain",
+        "domain": "Academic",
+        "subdomain": "Blood Research vs. Chemical Analysis",
+        "text1": "Blood pH affects cellular function",
+        "text2": "Solution conditions affect nanoparticle stability",
+        "source": "Zadeh Mehrizi (2022), p.2276, 2269",
+        "expected_range": [
+            0.2,
+            0.4
+        ],
+        "notes": "Physiology vs. chemistry but both about pH effects"
+    },
+    {
+        "category": "Different Domain",
+        "domain": "Academic",
+        "subdomain": "Blood Research vs. Engineering Design",
+        "text1": "Blood vessels have specific structural requirements",
+        "text2": "Nanoparticle design requires structural optimization",
+        "source": "Zadeh Mehrizi (2022), p.2286, 2269",
+        "expected_range": [
+            0.2,
+            0.4
+        ],
+        "notes": "Biology vs. engineering but both about structural design"
+    },
+    {
+        "category": "Different Domain",
+        "domain": "Academic",
+        "subdomain": "Blood Research vs. Quality Control",
+        "text1": "Blood product safety requires specific standards",
+        "text2": "Nanoparticle production requires quality specifications",
+        "source": "Zadeh Mehrizi (2022), p.2266, 2267",
+        "expected_range": [
+            0.2,
+            0.4
+        ],
+        "notes": "Medical safety vs. manufacturing quality but both about standards"
+    },
+
+
+
+    
+    {
+        "category": "Unrelated",
+        "domain": "Academic",
+        "subdomain": "Blood Research",
+        "text1": "Platelets are tiny blood cells made up of bone marrow cells called megakaryocytes",
+        "text2": "The graphical abstract demonstrates the molecular structure of polymeric nanoparticles",
+        "source": "Zadeh Mehrizi (2022), p.2285, 2264",
+        "expected_range": [0.0, 0.2],
+        "notes": "Cell biology vs. document structure - no semantic connection"
+      },
+      {
+        "category": "Unrelated",
+        "domain": "Academic",
+        "subdomain": "Blood Research",
+        "text1": "Blood plasma contains 91 to 92% water",
+        "text2": "References are available on the last page of the article",
+        "source": "Zadeh Mehrizi (2022), p.2276, 2264",
+        "expected_range": [0.0, 0.2],
+        "notes": "Blood composition vs. article formatting"
+      },
+      {
+        "category": "Unrelated",
+        "domain": "Academic",
+        "subdomain": "Blood Research",
+        "text1": "Factor VIII is essential for blood clotting",
+        "text2": "The manuscript was received on June 30, 2021",
+        "source": "Zadeh Mehrizi (2022), p.2279, 2264",
+        "expected_range": [0.0, 0.2],
+        "notes": "Medical content vs. publication information"
+      },
+      {
+        "category": "Unrelated",
+        "domain": "Academic",
+        "subdomain": "Blood Research",
+        "text1": "Hemolysis involves rupture of red blood cells",
+        "text2": "The author's email address is provided for correspondence",
+        "source": "Zadeh Mehrizi (2022), p.2268, 2298",
+        "expected_range": [0.0, 0.2],
+        "notes": "Cell biology vs. contact information"
+      },
+      {
+        "category": "Unrelated",
+        "domain": "Academic",
+        "subdomain": "Blood Research",
+        "text1": "Liposomes can preserve red blood cells during storage",
+        "text2": "Keywords are listed below the abstract",
+        "source": "Zadeh Mehrizi (2022), p.2268, 2264",
+        "expected_range": [0.0, 0.2],
+        "notes": "Research content vs. article structure"
+      },
+  
+  
+     {
+       "category": "Unrelated",
+       "domain": "Academic",
+       "subdomain": "Blood Research",
+       "text1": "Crown protein production occurs due to interactions between nanoparticles and platelets that occur under the influence of plasma proteins adsorbed on the surface of nanoparticles",
+       "text2": "The goal of this review is to provide readers with a comprehensive understanding of recent developments in blood product storage, as outlined in the introduction",
+       "source": "Zadeh Mehrizi (2022), p.2266, 2264",
+       "expected_range": [0.0, 0.2],
+       "notes": "Specific research finding vs. paper purpose statement"
+     },
+     {
+       "category": "Unrelated",
+       "domain": "Academic",
+       "subdomain": "Blood Research",
+       "text1": "The sensitivity of red cells to freezing and releasing hemoglobin following rupture of red cell membranes and creating hemolysis phenomenon is dangerous consequences of non-observance of the desired temperature",
+       "text2": "Several studies have been conducted using different methodological approaches, as summarized in Tables 1-3 of this comprehensive review",
+       "source": "Zadeh Mehrizi (2022), p.2266, 2270",
+       "expected_range": [0.0, 0.2],
+       "notes": "Technical finding vs. paper structure"
+     },
+     {
+       "category": "Unrelated",
+       "domain": "Academic",
+       "subdomain": "Blood Research",
+       "text1": "Polyamidoamine (PAMAM) dendrimers have been extensively studied due to their unique properties to evaluate the components of the blood coagulation system and their effects on platelet aggregation",
+       "text2": "The figures and illustrations throughout this paper were designed to provide visual representation of key concepts discussed in the text",
+       "source": "Zadeh Mehrizi (2022), p.2286, 2264",
+       "expected_range": [0.0, 0.2],
+       "notes": "Research content vs. document formatting"
+     },
+     {
+       "category": "Unrelated",
+       "domain": "Academic",
+       "subdomain": "Blood Research",
+       "text1": "The incorporation of chitosan nanoparticles into the RBC membrane can significantly reduce membrane lesions during hypothermic storage while maintaining cellular integrity and function",
+       "text2": "This research was supported by various funding sources and conducted in accordance with institutional guidelines as noted in the acknowledgments",
+       "source": "Zadeh Mehrizi (2022), p.2268, 2298",
+       "expected_range": [0.0, 0.2],
+       "notes": "Technical finding vs. administrative information"
+     },
+     {
+       "category": "Unrelated",
+       "domain": "Academic",
+       "subdomain": "Blood Research",
+       "text1": "The interaction of nanoparticles with blood plasma can affect the formation of specific proteins, leading to increased biological properties due to the binding of nanoparticles to plasma proteins such as albumin",
+       "text2": "The systematic organization of this review article follows standard academic formatting with clearly defined sections and subsections",
+       "source": "Zadeh Mehrizi (2022), p.2266, 2264",
+       "expected_range": [0.0, 0.2],
+       "notes": "Research finding vs. article organization"
+     },
+  
+  
+  
+  
+     {
+       "category": "Unrelated",
+       "domain": "Academic", 
+       "subdomain": "Blood Research",
+       "text1": "The hemolytic behavior of nanoparticles and their interaction with red blood cells is significantly affected by surface charge characteristics and particle size distribution in the bloodstream",
+       "text2": "The extensive literature review process included searching multiple scientific databases and examining peer-reviewed publications from the past decade",
+       "source": "Zadeh Mehrizi (2022), p.2269, 2264",
+       "expected_range": [0.0, 0.2],
+       "notes": "Research findings vs. methodology description"
+     },
+     {
+       "category": "Unrelated",
+       "domain": "Academic",
+       "subdomain": "Blood Research", 
+       "text1": "Liposomes composed of unsaturated lipids demonstrated significant effects on membrane modification of human erythrocytes through altered lipid transfer mechanisms and cholesterol exchange",
+       "text2": "The statistical analysis of compiled data was performed using standard software packages as described in the methods section",
+       "source": "Zadeh Mehrizi (2022), p.2270, 2265",
+       "expected_range": [0.0, 0.2],
+       "notes": "Technical results vs. analysis methods"
+     },
+     {
+       "category": "Unrelated",
+       "domain": "Academic",
+       "subdomain": "Blood Research",
+       "text1": "The encapsulation of factor VIII within phosphatidylinositol-containing lipid nanoparticles showed improved therapeutic efficacy in hemophilia A treatment through enhanced protein stability",
+       "text2": "Each figure in this review was carefully designed to illustrate complex molecular interactions and cellular processes using standardized scientific notation",
+       "source": "Zadeh Mehrizi (2022), p.2279, 2264",
+       "expected_range": [0.0, 0.2],
+       "notes": "Research outcome vs. figure design"
+     },
+     {
+       "category": "Unrelated",
+       "domain": "Academic",
+       "subdomain": "Blood Research",
+       "text1": "The synthesis and characterization of polymer-based nanocarriers for targeted delivery of therapeutic proteins requires precise control of molecular weight distribution and surface functionalization",
+       "text2": "Supplementary materials and additional data sets are available through the publisher's online repository for further reference",
+       "source": "Zadeh Mehrizi (2022), p.2267, 2298",
+       "expected_range": [0.0, 0.2],
+       "notes": "Technical process vs. publication details"
+     },
+     {
+       "category": "Unrelated",
+       "domain": "Academic",
+       "subdomain": "Blood Research",
+       "text1": "The formation of protein corona on nanoparticle surfaces in blood plasma significantly impacts their biological identity and affects subsequent cellular interactions through modified surface properties",
+       "text2": "This comprehensive review article represents a collaborative effort between multiple research institutions and was supported by various funding agencies",
+       "source": "Zadeh Mehrizi (2022), p.2266, 2298",
+       "expected_range": [0.0, 0.2],
+       "notes": "Scientific phenomenon vs. administrative information"
+     },
+     {
+       "category": "Unrelated",
+       "domain": "Academic",
+       "subdomain": "Blood Research",
+       "text1": "The optimization of storage conditions for platelet concentrates involves careful regulation of temperature, pH, and agitation parameters to maintain cellular viability and prevent activation",
+       "text2": "The manuscript underwent several rounds of peer review before final acceptance, with revisions completed according to reviewer suggestions",
+       "source": "Zadeh Mehrizi (2022), p.2285, 2264",
+       "expected_range": [0.0, 0.2],
+       "notes": "Technical protocol vs. publication process"
+     },
+     {
+       "category": "Unrelated",
+       "domain": "Academic",
+       "subdomain": "Blood Research",
+       "text1": "Surface modification of polymeric nanoparticles with specific ligands enables targeted delivery to thrombotic sites and enhanced interaction with activated platelets in the bloodstream",
+       "text2": "The structure of this review follows a logical progression from basic concepts to advanced applications, with appropriate section headings and subheadings",
+       "source": "Zadeh Mehrizi (2022), p.2286, 2264",
+       "expected_range": [0.0, 0.2],
+       "notes": "Research content vs. article organization"
+     },
+     {
+       "category": "Unrelated",
+       "domain": "Academic",
+       "subdomain": "Blood Research",
+       "text1": "The development of novel preservation strategies for blood products requires integration of multiple approaches including membrane stabilization and metabolic modulation",
+       "text2": "All experimental procedures described in this review were conducted in accordance with institutional guidelines and ethical standards",
+       "source": "Zadeh Mehrizi (2022), p.2266, 2298",
+       "expected_range": [0.0, 0.2],
+       "notes": "Research strategy vs. compliance statement"
+     },
+     {
+       "category": "Unrelated",
+       "domain": "Academic",
+       "subdomain": "Blood Research",
+       "text1": "The interaction between dendrimeric nanostructures and blood components leads to complex biological responses including complement activation and protein adsorption patterns",
+       "text2": "The reference list was formatted according to journal guidelines and includes all relevant citations from primary literature sources",
+       "source": "Zadeh Mehrizi (2022), p.2286, 2298",
+       "expected_range": [0.0, 0.2],
+       "notes": "Biological interaction vs. formatting guidelines"
+     },
+     {
+       "category": "Unrelated",
+       "domain": "Academic",
+       "subdomain": "Blood Research",
+       "text1": "Nanoscale modification of blood cell surfaces using polymeric materials provides opportunities for enhanced cellular function and improved storage stability",
+       "text2": "The conclusions section summarizes key findings and suggests directions for future research in this rapidly evolving field",
+       "source": "Zadeh Mehrizi (2022), p.2267, 2290",
+       "expected_range": [0.0, 0.2],
+       "notes": "Technical approach vs. paper structure"
+     },
+  
+  
+  
+  
+      {
+        "category": "Contradiction",
+        "domain": "Academic",
+        "subdomain": "Blood Research",
+        "text1": "Positively charged nanoparticles caused RBC rupture and are not recommended for RBC storage",
+        "text2": "Positively charged nanoparticles improve RBC stability and are ideal for blood storage applications",
+        "source": "Zadeh Mehrizi (2022), p.2269",
+        "expected_range": [0.4, 0.8],
+        "notes": "Direct contradiction about effects of positive nanoparticles"
+      },
+      {
+        "category": "Contradiction",
+        "domain": "Academic",
+        "subdomain": "Blood Research",
+        "text1": "Using negatively charged nanoparticles with low molecular weight can increase the storage time of platelets",
+        "text2": "Negatively charged nanoparticles reduce platelet storage duration and should be avoided",
+        "source": "Zadeh Mehrizi (2022), p.2269",
+        "expected_range": [0.4, 0.8],
+        "notes": "Opposing claims about negative nanoparticles"
+      },
+      {
+        "category": "Contradiction",
+        "domain": "Academic",
+        "subdomain": "Blood Research",
+        "text1": "Liposome nanoparticles are effective preservatives for RBCs during hypothermal conditions",
+        "text2": "Liposomes cause damage to RBCs under hypothermal storage conditions",
+        "source": "Zadeh Mehrizi (2022), p.2269",
+        "expected_range": [0.4, 0.8],
+        "notes": "Contradictory effects of liposomes"
+      },
+      {
+        "category": "Contradiction",
+        "domain": "Academic",
+        "subdomain": "Blood Research",
+        "text1": "Chitosan nanoparticles were introduced as stabilizing agents to enhance albumin quality",
+        "text2": "Chitosan nanoparticles destabilize albumin and reduce its quality during storage",
+        "source": "Zadeh Mehrizi (2022), p.2269",
+        "expected_range": [0.4, 0.8],
+        "notes": "Opposite effects on albumin stability"
+      },
+      {
+        "category": "Contradiction",
+        "domain": "Academic",
+        "subdomain": "Blood Research",
+        "text1": "PAMAM dendrimers caused platelet aggregation and reduction in storage time",
+        "text2": "PAMAM dendrimers prevent platelet aggregation and extend storage duration",
+        "source": "Zadeh Mehrizi (2022), p.2286",
+        "expected_range": [0.4, 0.8],
+        "notes": "Contradictory effects on platelets"
+      },
+  
+  
+      {
+        "category": "Contradiction",
+        "domain": "Academic",
+        "subdomain": "Blood Research",
+        "text1": "Crown protein formation on nanoparticle surfaces enhances their biological compatibility",
+        "text2": "Crown protein formation renders nanoparticles incompatible with biological systems",
+        "source": "Zadeh Mehrizi (2022), p.2266",
+        "expected_range": [0.4, 0.8],
+        "notes": "Contradictory effects of protein corona"
+      },
+      {
+        "category": "Contradiction",
+        "domain": "Academic",
+        "subdomain": "Blood Research",
+        "text1": "Polymeric nanoparticles improve the stability and quality of factor VIII products",
+        "text2": "Polymeric nanoparticles destabilize factor VIII and reduce its therapeutic efficacy",
+        "source": "Zadeh Mehrizi (2022), p.2279",
+        "expected_range": [0.4, 0.8],
+        "notes": "Opposing effects on factor VIII"
+      },
+      {
+        "category": "Contradiction",
+        "domain": "Academic",
+        "subdomain": "Blood Research",
+        "text1": "Platelet-targeted nanoparticles effectively prevent thrombosis and restenosis",
+        "text2": "Platelet-targeted nanoparticles increase thrombosis risk and promote restenosis",
+        "source": "Zadeh Mehrizi (2022), p.2286",
+        "expected_range": [0.4, 0.8],
+        "notes": "Contradictory therapeutic effects"
+      },
+      {
+        "category": "Contradiction",
+        "domain": "Academic",
+        "subdomain": "Blood Research",
+        "text1": "The hydrophilic nature of polyurethane membranes reduces platelet adhesion",
+        "text2": "Hydrophilic polyurethane membranes promote platelet adhesion and aggregation",
+        "source": "Zadeh Mehrizi (2022), p.2286",
+        "expected_range": [0.4, 0.8],
+        "notes": "Opposing claims about surface properties"
+      },
+      {
+        "category": "Contradiction",
+        "domain": "Academic",
+        "subdomain": "Blood Research",
+        "text1": "Nanoparticle surface charge determines their safe interaction with blood components",
+        "text2": "Surface charge has no effect on nanoparticle-blood component interactions",
+        "source": "Zadeh Mehrizi (2022), p.2269",
+        "expected_range": [0.4, 0.8],
+        "notes": "Contradictory claims about charge effects"
+      },
+  
+  
+     {
+       "category": "Contradiction",
+       "domain": "Academic",
+       "subdomain": "Blood Research",
+       "text1": "The integration of lipid-based nanocarriers with specific surface modifications enhances factor VIII stability through controlled protein-lipid interactions and prevents immunogenic responses during storage and administration",
+       "text2": "Surface-modified lipid nanocarriers destabilize factor VIII through disrupted protein-lipid interactions and trigger severe immunogenic reactions that compromise both storage stability and therapeutic efficacy",
+       "source": "Zadeh Mehrizi (2022), p.2279",
+       "expected_range": [0.4, 0.8],
+       "notes": "Complex contradiction about nanocarrier effects on factor VIII"
+     },
+     {
+       "category": "Contradiction",
+       "domain": "Academic",
+       "subdomain": "Blood Research", 
+       "text1": "The incorporation of polyethylene glycol-modified dendrimers with controlled surface charge density enables enhanced blood circulation time and reduced complement activation through stabilized protein corona formation and regulated cellular interactions",
+       "text2": "PEG-modified dendrimers with surface charge modifications trigger rapid clearance from circulation and increased complement activation due to destabilized protein corona and dysregulated interactions with blood components",
+       "source": "Zadeh Mehrizi (2022), p.2272",
+       "expected_range": [0.4, 0.8],
+       "notes": "Complex contradiction about dendrimer modifications"
+     },
+     {
+       "category": "Contradiction",
+       "domain": "Academic",
+       "subdomain": "Blood Research",
+       "text1": "Chitosan-based nanoparticle systems with optimized molecular weight distribution and degree of deacetylation demonstrate superior platelet preservation capabilities through regulated membrane interactions and metabolic stabilization during extended storage periods",
+       "text2": "The application of chitosan nanoparticles, regardless of molecular weight and deacetylation degree, compromises platelet viability through destructive membrane interactions and metabolic disruption, making them unsuitable for storage applications",
+       "source": "Zadeh Mehrizi (2022), p.2270",
+       "expected_range": [0.4, 0.8],
+       "notes": "Complex contradiction about chitosan effects on platelets"
+     },
+     {
+       "category": "Contradiction",
+       "domain": "Academic",
+       "subdomain": "Blood Research",
+       "text1": "The synergistic combination of trehalose-containing liposomes with specific membrane-stabilizing polymers provides comprehensive protection against storage lesions in red blood cells through maintained membrane integrity and preserved metabolic functionality",
+       "text2": "Combining trehalose-liposomes with membrane-interacting polymers accelerates storage lesion development in red blood cells by disrupting membrane organization and compromising cellular metabolism during preservation",
+       "source": "Zadeh Mehrizi (2022), p.2269",
+       "expected_range": [0.4, 0.8],
+       "notes": "Complex contradiction about combination preservation strategies"
+     },
+     {
+       "category": "Contradiction",
+       "domain": "Academic",
+       "subdomain": "Blood Research",
+       "text1": "Advanced surface functionalization of polymeric nanocarriers with targeted ligands and controlled charge distribution enables selective interactions with activated platelets while maintaining blood compatibility through regulated protein adsorption patterns",
+       "text2": "Surface modification of polymeric nanocarriers with targeting ligands and charge control leads to non-specific platelet activation and reduced blood compatibility due to aberrant protein adsorption and cellular recognition",
+       "source": "Zadeh Mehrizi (2022), p.2286",
+       "expected_range": [0.4, 0.8],
+       "notes": "Complex contradiction about surface functionalization effects"
+     }
+   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+   
 ]
